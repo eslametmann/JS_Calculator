@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calContainer {
+  width: 60%;
+  min-width: 200px;
+  max-width: 500px;
+  height: 450px;  
+  background-color: navy;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 30px;
+}
+.screen {
+  display: block;
+  margin: 15px 8% 0 8%;
+  background-color: #C6CACA;
+  border-radius: 5px; 
+  border: 2px solid black;
+  font-family: 'Orbitron', sans-serif;
+  overflow: hidden;
+}
+
+.butn {
+  border: 1px solid black;
+}
+h1, h3 {
+  margin: 1px;
+}
